@@ -1,0 +1,125 @@
+.kontaktformular__container {
+  width: 40%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+
+.kontaktformular__container-horizontal {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 49% 49%;
+  gap: 2%;
+}
+
+
+
+.kontaktformular-input {
+  width: 100%;
+  font-size: 20px;
+  border: none;
+  /* border-bottom: 2px solid rgba(0, 87, 164, 0.5); */
+  border-bottom: 1px solid lightgray;
+  outline: none;
+  background-color: rgba(0,0,0,0);
+  font-family: ClearSansRegular;
+  margin-top: 20px;
+  transition: 0.4s;
+  color: black;
+}
+.kontaktformular-input:focus {
+  border-bottom: 1px solid #0057a4;
+}
+.kontaktformular-input:hover {
+  border-bottom: 1px solid #0057a4;
+}
+.kontaktformular-input__container {
+  width: 100%;
+  height: fit-content;
+  /* background-color: red; */
+  position: relative;
+}
+.kontaktformular-input__placeholder {
+  font-size: 20px;
+  font-family: ClearSansRegular;
+  position: absolute;
+  bottom: 3px;
+  left: 2px;
+  z-index: 90;
+  transition: 0.4s;
+  /* color: gray; */
+  color: black;
+}
+.kontaktformular-input__placeholder.typing {
+  bottom: 30px;
+  font-size: 12px;
+}
+.kontaktformular-input::placeholder {
+  color: gray;
+}
+
+.kontaktformular-senden__button {
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  margin-top: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.kontaktformular-senden__button:hover {
+  opacity: 0.8;
+}
+
+#kontaktformullartext {
+  max-width: 50%;
+}
+
+@media (max-width: 1080px) {
+  .kontaktformular__container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .kontaktformular__container-horizontal {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* .kontaktformular-senden__button {
+    margin-right: 0px;
+    margin-left: auto;
+  } */
+
+  #kontaktformullartext {
+    max-width: 90%;
+  }
+
+
+
+
+  .kontaktformular-input {
+    font-size: 14px;
+  }
+  .kontaktformular-input__placeholder {
+    font-size: 14px;
+  }
+  .kontaktformular-input__placeholder.typing {
+    bottom: 23px;
+    font-size: 10px;
+  }
+}
+
+
+
+@media (max-height: 320px) {
+  #kontaktformular__container {
+    margin-top: 250px;
+  }
+}

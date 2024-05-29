@@ -1,0 +1,77 @@
+.cover__banner {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url("/newbgimg.webp");
+}
+
+.cover__banner.cover__relative {
+  position: relative;
+}
+
+.video__banner {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.cover__banner-fadein {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  animation: fadeIn 10s; /* Animation duration of 5 seconds */
+}
+
+.cover__banner-bg {
+  width: 100%;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  background-color: black;
+  opacity: 0.4;
+}
+
+
+@media (max-width: 768px) {
+  #coverbanner {
+    background-position: center bottom; /* Horizontally center, vertically start from bottom */
+    background-size: cover; /* Auto width, 100% height */
+    background-image: url("/hqbg.webp");
+  }
+
+
+  .cover__banner.cover__relative {
+    position: relative;
+  }
+
+  .cover__banner-bg {
+    background-color: rgba(0,0,0,0);
+    opacity: 0;
+    height: 94vh;
+  }
+
+  .cover__banner {
+    height: 94vh;
+  }
+  
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 1;
+        background-color: black;
+    }
+    to {
+        opacity: 0;
+        background-color: transparent;
+    }
+
+    
+}

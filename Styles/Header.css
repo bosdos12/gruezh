@@ -1,0 +1,159 @@
+.header {
+  width: 100%;
+  height: 100px;
+  /* border-bottom: 2px solid gray; */
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 400; /* Higher z-index to keep the header above other content */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transition: background-color 0.5s ease; /* Animation will take 1 second */
+}
+
+
+.header__content {
+  margin-right: 26px;
+}
+
+.header__texts-container {
+  display: flex;
+  flex-direction: row;
+}
+.header__texts-single__container {
+  width: fit-content;
+  height: 100px;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 26px;
+}
+.header__texts-single__container > p {
+  color: white;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  text-decoration: none; /* Optional: removes default underline */
+  overflow: hidden; /* Ensures the pseudo-element is clipped */
+}
+
+#header__texts-hamburger-icon {
+  color: white;
+}
+
+.header__texts-single__container > p::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px; /* Thickness of the underline */
+  background-color: #0057a4; /* Color of the underline */
+  transition: width 0.3s ease-in-out; /* Animation effect */
+}
+.header__texts-single__container > p:hover::after {
+  width: 100%; /* Full width on hover */
+}
+
+.header__texts-single__container > i {
+  font-size: 30px;
+  margin: 0px;
+  color: #0057a4;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#fatimes__container {
+  position: absolute;
+  top: 0px;
+  right: 26px;
+  width: fit-content;
+  height: 70px;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#fatimes {
+  font-size: 30px;
+  margin: 0px;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+  visibility: hidden;
+}
+#fatimes:hover {
+  transform: scale(1.1);
+}
+.header__texts-single__container.burger > i:hover {
+  transform: scale(1.1);
+}
+@media (min-width: 769px){ 
+  .header__texts-single__container.burger {
+    display: none;
+  }
+}
+@media (max-width: 768px){ 
+  .header__texts-single__container {
+    height: 70px;
+  }
+
+  .header__texts-single__container:not(.burger) {
+    display: none;
+  }
+
+  .header {
+    height: 70px;
+  }
+}
+.logo__container {
+  width: 200px;
+  height: 100px;
+}
+.logo__image {
+  width: 100%;
+  height: auto;
+  bottom: 0px;
+  z-index: 900;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.logo__image.logo__fixed {
+  position: fixed;
+}
+.logo__image.logo__absolute {
+  position: absolute;
+}
+
+@media (min-width: 769px) {
+  .logo__image {
+    width: 80%;
+  }
+}
+
+/* @media (max-width: 768px) {
+  .logo__image {
+    bottom: 60px;
+  }
+} */
+
+.content {
+  width: 100%;
+  height: 200vh;
+  background-color: white;
+}
+.slide__bar {
+  width: 100%;
+  height: 100vh;
+  background-color: #0057a4;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2000;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}

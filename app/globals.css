@@ -1,0 +1,357 @@
+@font-face {
+  font-family: InterFont;
+  src: url("../fonts/Domaine.otf");
+}
+
+@font-face {
+  font-family: InterFontForReal;
+  src: url("../fonts/Inter.ttc");
+}
+
+@font-face {
+  font-family: ClearSansRegular;
+  src: url("../fonts/klavikaRegular.otf");
+}
+
+@font-face {
+  font-family: BlackerSansProMedium;
+  src: url("../fonts/klavikaMedium.otf");
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+}
+
+p {
+  margin: 0px;
+}
+
+.large__text {
+  font-size: 40px;
+  color: #0057a4;
+  font-family: ClearSansRegular;
+}
+.large__text-inter {
+  font-size: 40px;
+  color: #0057a4;
+  font-family: ClearSansRegular;
+}
+.medium__text {
+  font-size: 26px;
+  color: #0057a4;
+  font-family: ClearSansRegular;
+}
+.medium__text-inter {
+  font-size: 26px;
+  color: #0057a4;
+  font-family: ClearSansRegular;
+}
+
+.small__text {
+  font-size: 18px;
+  font-family: ClearSansRegular;
+}
+.small__text-inter {
+  font-size: 18 px;
+  font-family: ClearSansRegular;
+}
+
+.smaller__text {
+  font-size: 16px;
+  font-family: ClearSansRegular;
+} 
+.smaller__text-inter {
+  font-size: 16px;
+  font-family: ClearSansRegular;
+}
+
+.text__blacker {
+  font-family: BlackerSansProMedium;
+}
+
+.services__accordions-container {
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.services__accordions-accordion:last-child {
+  border-bottom: 1px solid #0057a4;
+}
+.services__accordions-accordion {
+  width: 90%;
+  height: auto;
+  border-top: 1px solid #0057a4;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 90% 10%;
+  overflow: hidden;
+  transition: height 0.4s ease-out;
+}
+.services__acordions-accordion__content-general__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.services__accordions-accordion.closed {
+  height: 50px;
+}
+.services__accordions-accordion__content-container {
+  width: 100%;
+  height: 100%;
+  transition: height 0.4s ease-out; /* Adjusts the height over 0.5 seconds */
+  overflow: hidden;
+}
+.services__accordions-accordion__content-header {
+  font-family: InterFont;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 0px;
+  cursor: pointer;
+  margin-top: 17px;
+  margin-left: 15px;
+}
+
+.services__accordions-accordion__content-image__container {
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.services__accordions-accordion__content-image {
+  width: 80%;
+  height: 250px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: green; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.services__accordions-accordion__content-image.closed {
+  visibility: hidden;
+}
+.services__accordions-accordion__content-button__container {
+  width: 100%;
+  height: 100%;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  max-height: 300px;
+}
+
+#sanitarheizungplanung {
+  font-size: 40px;
+}
+
+
+.kontaktformular-input__spacer-gap {
+  width: 100px;
+  height: 20px;
+}
+
+#kontaktandtextcontainer {
+  height: 55vh;
+}
+
+.scalableimgtitle {
+  font-size: 48px;
+}
+
+
+
+@media (min-width: 769px) {
+  #kontaktandtextcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+
+  .unserteamtclass {
+    margin-top: -20px;
+    margin-bottom: 20px;
+  }
+
+  .scalableimgtitle {
+    margin-top: -70px;
+  }
+
+
+  #uberunsheadertitle {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .scalableimgtitle {
+    font-size: 40px;
+  }
+
+  .services__accordions-accordion__content-button__container {
+    max-height: 325px;
+  }
+
+  #sanitarheizungplanung {
+    font-size: 28px;
+  }
+
+  .kontaktformular-input__spacer-gap {
+    width: 100px;
+    height: 0px;
+  }
+
+  .kontaktformular-input__container {
+    margin-top: 6px;
+  }
+
+  #kontaktandtextcontainer {
+    height: 70vh;
+  }
+  
+
+}
+
+
+@media (max-width: 436px) {
+
+  #kontaktandtextcontainer {
+    height: 90vh;
+  }
+
+  #serviceddienstleistungen {
+    margin-top: 10px;
+  }
+
+  .scalableimgtitle {
+    font-size: 32px;
+  }
+
+  #sanitarheizungplanung {
+    font-size: 22px;
+  }
+}
+@media (max-width: 346px) {
+  #heizungsinstallationen {
+    margin-top: 10px;
+  }
+
+  #sanitarheizungplanung {
+    font-size: 20px;
+  }
+}
+@media (max-width: 330px) {
+  #sanitarinstallationen {
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-height: 1055px) {
+  #kontaktandtextcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .footer__container.contactFooter {
+    position: absolute;
+    top: auto;
+    bottom: 0px;
+  }
+}
+
+.services__accordions-accordion__content-button__container-text__container {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  /* background-color: antiquewhite; */
+}
+.services__accordions-accordion__content-button__container-text__container:not(.closed) {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.services__accordions-accordion__content-button__container-text {
+  font-family: InterFont;
+  font-size: 20px;
+  color: #0057a4;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+
+@media (max-width: 1080px) {
+  .services__acordions-accordion__content-general__container {
+    flex-direction: column;
+  }
+
+  .services__accordions-accordion__content-image {
+    width: 300px;
+    margin-left: auto;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .services__accordions-accordion__content-header {
+    font-size: 12px;
+  }
+}
+
+.bottomtotop {
+  opacity: 0;
+  transform: translateY(50px); /* Start the text below the viewport */
+  transition: opacity 2.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.bottomtotop.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+#input__header-text__container {  
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  text-align: center;
+}
+@media (max-width: 1080px) {
+  #input__header-text__container {
+    width: 80%;
+  }
+}
+
+
+
+#kontaktinfotext {
+  font-size: 22px;
+  color: black;
+}
+
+@media (max-width: 768px) {
+
+  #kontaktinfotext {
+    font-size: 18px;
+  }
+
+  #input__header-text__container {
+    width: 90%;
+  }
+}
+

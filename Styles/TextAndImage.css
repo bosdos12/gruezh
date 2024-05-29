@@ -1,0 +1,220 @@
+
+
+.text__image-container {
+  width: 100%;
+  height: 700px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.text__image-text__container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.text__image-text__container.right {
+  order: 1;
+}
+
+.text__image-text__container > p {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.text__image-image__container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  /* background-color: lightcyan; */
+}
+
+.text__image-image__container-right__img {
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  top: 0px;
+  right: 5%;
+  /* background-color: red; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text__image-image__container-left__img {
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  bottom: 0px;
+  left: 5%;
+  /* background-color: green; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text__image-image__container-center__img {
+  position: absolute;
+  width: 50%;
+  height: 90%;
+  left: 25%;
+  right: 25%;
+  top: 2%;
+  bottom: 8%;
+  /* background-color: purple; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5s;
+  cursor: pointer;
+  /* box-shadow: inset 0 0 0 12px #56ACFF; */
+  border: 12px solid white;
+  box-shadow: 0px 0px 10px 0px rgba(42,41,41,0.5);
+}
+.text__image-image__container-center__img:hover {
+  opacity: 0.8;
+  transform: scale(1.02);
+}
+
+.text__image-image__container-single__img {
+  position: absolute;
+  width: 80%;
+  height: 90%;
+  left: 6.8%;
+  right: auto;
+  top: 5%;
+  bottom: 5%;
+  /* background-color: purple; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.5s;
+  cursor: pointer;
+  border: 12px solid white;
+  /* box-shadow: inset 0 0 0 12px #56ACFF; */
+  box-shadow: 0px 0px 10px 0px rgba(42,41,41,0.5);
+}
+.text__image-image__container-single__img:hover {
+  opacity: 0.8;
+  transform: scale(1.02);
+}
+
+.text__image-text__container-button {
+  width: 90px;
+  height: 40px;
+  /* border-radius: 4px; */
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #0057a4;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.text__image-text__container-button:hover {
+  opacity: 0.8;
+}
+
+
+@media (max-width: 1200px) {
+  .text__image-container {
+    grid-template-columns: 45% 55%;
+  }
+
+  .text__image-text__container > .small__text {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+@media (max-width: 920px) {
+  .text__image-container {
+    grid-template-columns: 40% 60%;
+  }
+
+  .text__image-text__container > .small__text {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .text__image-container {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin-top: 100px;
+    margin-bottom: 0px;
+  }
+  .text__image-image__container {
+    height: 500px;
+  }
+  .text__image-text__container {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    height: fit-content;
+    order: 1;
+  }
+
+  .text__image-image__container.single {
+    margin-top: -50px;
+  }
+  
+}
+
+@media (max-width: 620px) {
+  .text__image-image__container-center__img {
+    width: 70%;
+    height: 80%;
+    left: 15%;
+    right: 15%;
+    top: 5%;
+    bottom: 15%;
+  }
+}
+
+@media (max-width: 480px) {
+  .text__image-image__container-center__img {
+    width: 80%;
+    left: 6.8%;
+    right: auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .text__image-image__container-center__img {
+    height: 70%;
+    top: 10%;
+    bottom: 20%;
+  }
+
+
+  .text__image-image__container-right__img {
+    top: 5%;
+    height: 30%;
+  }
+  
+  .text__image-image__container-left__img {
+    height: 40%;
+    bottom: 5%;
+  }
+  
+}
+
+
+@media (max-width: 360px) {
+  .text__image-image__container-center__img {
+    height: 60%;
+    top: 30%;
+    bottom: 10%;
+  }
+}

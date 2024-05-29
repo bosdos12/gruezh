@@ -1,0 +1,74 @@
+
+import AnimatedLanding from "@/Components/AnimatedLanding";
+import HeaderAction from "@/Components/HeaderAction";
+import TextAndImage from "@/Components/TextAndImage";
+import SlideBar from "@/Components/SlideBar";
+import GetOnMailingList from "@/Components/GetOnMailingList";
+import Footer from "@/Components/Footer";
+import { KontaktFormular } from "@/Components";
+
+export default function Home() {
+
+
+  return (
+    <div className="main__container">
+
+      <AnimatedLanding />
+
+      {/* 
+      <HeaderAction
+        PStyle={{textDecoration: "underline", textDecorationColor: "#0057a4"}}
+        titleText="Sanitar / Heizung / Plannung"
+        descriptionText="Mehr Finden"
+      /> */}
+
+
+      <div style={{width: "100%", height: "100px"}}></div>
+      <div style={{width: "100%", height: "fit-content", textAlign: "center"}}>
+        <p className="large__text bottomtotop text__blacker" id="sanitarheizungplanung">SANITÄR / HEIZUNG / PLANUNG</p><br />
+        <div style={{
+          width: "80%",
+          marginLeft: "auto",
+          marginRight: "auto"
+        }}>
+          <p className="small__text bottomtotop">Ihre vertrauenswürdige und fachkundige Anlaufstelle für Sanitär-<br/> und Heizungssysteme sowie erstklassige Planungsdienstleistungen.</p>
+        </div>
+      </div>
+
+      <TextAndImage
+        rightImg="/squarefloor.webp"
+        leftImg="/3.webp"
+        centerImg="/2.webp"
+        titleText="Leistungen"
+        paragraphText="Von der Planung bis zur Ausführung, durchgeführt mit Verlässlichkeit, Kompetenz und Qualitat."
+        hasButton
+        buttonHref="leistungen"
+        TClass="scalableimgtitle"
+      />
+
+      <TextAndImage 
+        rightImg="/8_right.webp"
+        leftImg="/8.webp"
+        centerImg="/8_center.webp"
+        titleText="Über uns"
+        paragraphText="Langjährige Erfahrung, innovative Ansätze, herausragende Handwerkskunst."
+        hasButton
+        buttonHref="uberuns"
+        direction="right"
+        ContainerStyle={{marginBottom: "50px"}}
+        TClass="scalableimgtitle"
+      />
+{/* 
+
+
+      <KontaktFormular /> */}
+
+
+      <Footer />
+
+      <SlideBar />
+
+
+    </div>
+  );
+}
