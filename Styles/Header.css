@@ -112,12 +112,12 @@
   height: 100px;
 }
 .logo__image {
-  width: 100%;
-  height: auto;
-  bottom: 0px;
+  height: 60px;
+  top: 20px;
   z-index: 900;
   left: 50%;
   transform: translateX(-50%);
+  position: fixed;
 }
 .logo__image.logo__fixed {
   position: fixed;
@@ -126,9 +126,19 @@
   position: absolute;
 }
 
-@media (min-width: 769px) {
+
+@media (max-width: 769px) {
   .logo__image {
-    width: 80%;
+    height: 40px;
+    top: 15px;
+    margin: 0px;
+    left: 0px;
+  }
+
+
+  #nonanimated__logoimage {
+    position: absolute;
+    left: 105px;
   }
 }
 

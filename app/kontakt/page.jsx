@@ -41,6 +41,37 @@ const page = () => {
       </div>
 
 
+      <div style={{width: "100%", height: "100px"}}></div>
+
+      <div className="contact-section">
+        <div className="contact-info">
+          <div className="contact-item">
+            <img src="/gruezh/Icons/location-tick.svg" alt="User Icon"/>
+            <p style={{paddingLeft: "8px"}}>Name: John Doe</p>
+          </div>
+          <div className="contact-item">
+            <img src="/gruezh/Icons/sms.svg" alt="User Icon"/>
+            <p style={{paddingLeft: "8px"}}>Email: contact@example.com</p>
+          </div>
+          <div className="contact-item">
+            <img src="/gruezh/Icons/global.svg" alt="User Icon"/>
+            <p style={{paddingLeft: "8px"}}>Address: 123 Main Street, City</p>
+          </div>
+          <div className="contact-item">
+            <img src="/gruezh/Icons/call-calling.svg" alt="User Icon"/>
+            <p style={{paddingLeft: "8px"}}>Phone: +123456789</p>
+          </div>
+        </div>
+
+        <div className="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434508616!2d144.95373631531575!3d-37.81627974202186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f1f8979f%3A0x5045675218ce7e0!2zTWFsYm91cm5lLCBNZWxib3VybmUgVklDIDMwMDAsIEF1c3RyYWxpYQ!5e0!3m2!1sen!2sus!4v1617795732889!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+
+
+      <div style={{width: "100%", height: "100px"}}></div>
+
+
       <Footer extraClasses=" contactFooter"/>
 
       <SlideBar />

@@ -71,45 +71,41 @@ const Header = ({
 
     const viewPortWidth = window.innerWidth;
     const viewportHeight = (window.innerHeight / 100) * (viewPortWidth < 769 ? 94 : 100); // height of the banner in vh
-    const initialWidth = window.innerWidth;
+    // const initialWidth = window.innerWidth;
 
     const scrollDistance = window.pageYOffset || document.documentElement.scrollTop;
-    const scrollRatio = scrollDistance / viewportHeight;
+    // const scrollRatio = scrollDistance / viewportHeight;
 
-    const widthReduction = initialWidth - targetWidth;
-    const currentWidth = initialWidth - (scrollRatio * widthReduction);
-    const largestOne = Math.max(currentWidth, targetWidth);
-    const widthAt80Percent = (largestOne / 100) * 60
-    if (viewPortWidth < 769) {
-      logoImage.style.width = `${largestOne}px`;
-    } else {
-      logoImage.style.width = `${widthAt80Percent}px`;
-    }
+    // const widthReduction = initialWidth - targetWidth;
+    // const currentWidth = initialWidth - (scrollRatio * widthReduction);
+    // const largestOne = Math.max(currentWidth, targetWidth);
+    // const widthAt80Percent = (largestOne / 100) * 60
+    
+    // if (viewPortWidth < 769) {
+    //   logoImage.style.width = `${largestOne}px`;
+    // } else {
+    //   logoImage.style.width = `${widthAt80Percent}px`;
+    // }
 
     // const newPosition = (viewportHeight - scrollDistance);
+
+    if (viewPortWidth < 769) {
+      logoImage.style.top = "18px";
+    } else {
+      logoImage.style.top = "8px";
+    }
 
     // Check if 1 full screen - height of header width has been scrolled,
     // so a smooth animation can put the header in place
     if (scrollDistance >= viewportHeight- (viewPortWidth < 769 ? 70 : 100)) {
-      if (viewPortWidth < 769) {
-        logoImage.style.top = "18px";
-      } else {
-        logoImage.style.top = "8px";
-      }
+
       
       header.style.backgroundColor = "white";
       if (!logoImage.src.includes("bluelogo.svg")) {
-        logoImage.src = "/bluelogo.svg";
+        logoImage.src = "/gruezhlogo.png";
       }
       // console.log("set new src")
       
-      if (typeof setCoverBannerPosition !== "undefined") {
-        setCoverBannerPosition("");
-      }
-      if (typeof setLogoPosition !== "undefined") {
-        setLogoPosition("logo__fixed")
-      }
-
       headerTexts.forEach(function(element) {
         element.style.color = 'black';
       });
@@ -121,18 +117,8 @@ const Header = ({
       // }
 
       header.style.backgroundColor = "";
-      if (!logoImage.src.includes("whitelogo.svg")) {
-        logoImage.src = "/whitelogo.svg";
-      }
-      logoImage.style.top = "auto";
-      logoImage.style.bottom = "0px";
-
-
-      if (typeof setCoverBannerPosition !== "undefined") {
-        setCoverBannerPosition("cover__relative");
-      }
-      if (typeof setLogoPosition !== "undefined") {
-        setLogoPosition("logo__absolute")
+      if (!logoImage.src.includes("gruezhwhitelogo.png")) {
+        logoImage.src = "/gruezhwhitelogo.png";
       }
 
       headerTexts.forEach(function(element) {
@@ -162,7 +148,7 @@ const Header = ({
   
   useEffect(() => {
     const header = (document.getElementById("header") as HTMLElement);
-    // const logoImage = (document.getElementById('logo__image') as HTMLElement);
+    const logoImage = (document.getElementById('logo__image') as HTMLElement);
 
 
     if (!logoPosition) {
@@ -170,23 +156,9 @@ const Header = ({
       document.body.style.paddingTop = "150px";
       const headerTexts = document.querySelectorAll<HTMLElement>('.header__texts-single__container p');
       headerTexts.forEach(function(element) {
-        element.style.color = 'black';
+        element.style.color = '#0057a4';
       });
       (document.getElementById("header__texts-hamburger-icon") as HTMLElement).style.color = "#0057a4";
-
-      const nonanimated__logoimage = (document.getElementById("nonanimated__logoimage") as HTMLElement)
-      nonanimated__logoimage.style.position = "absolute";
-
-      if (typeof window !== "undefined") {
-        const viewPortWidth = window.innerWidth;
-        if (viewPortWidth < 769) {
-          nonanimated__logoimage.style.width = "150px";
-          nonanimated__logoimage.style.top = "18px";
-        } else {
-          nonanimated__logoimage.style.width = "300px";
-          nonanimated__logoimage.style.top = "13px";
-        }
-      }
 
     } else {
       document.body.style.paddingTop = "0px";
@@ -201,6 +173,9 @@ const Header = ({
     // }
     
   }, [])
+
+
+  
   return (
     <div className="header" id="header">
 

@@ -17,7 +17,7 @@ const AnimatedLanding = () => {
         coverBannerPosition={coverBannerPosition}
         setCoverBannerPosition={setCoverBannerPosition}
         />
-      <CoverBanner coverBannerPosition={coverBannerPosition} logoPosition={logoPosition}/>
+      <CoverBanner coverBannerPosition={coverBannerPosition} logoPosition={"logo__fixed"}/>
     </div>
   )
 }

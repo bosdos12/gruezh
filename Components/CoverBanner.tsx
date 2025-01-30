@@ -17,7 +17,7 @@ const CoverBanner = ({
     <div className={`cover__banner ${coverBannerPosition}`} id='coverbanner'>
       <div className="cover__banner-fadein"></div>
       <div className="cover__banner-bg"></div>
-      <img src="/whitelogo.svg" alt='logo image' className={`logo__image ${logoPosition}`} style={{
+      <img src="/gruezhwhitelogo.png" alt='logo image' className={`logo__image ${logoPosition}`} style={{
         left: "50%",
         transform: "translateX(-50%)",
       }} id='logo__image' />
