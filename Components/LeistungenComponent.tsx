@@ -63,13 +63,23 @@ const LeistungenComponent = () => {
         openPopup={openPopup}
       />
 
-      <div style={{width: "100%", height: "1px"}}></div>
 
-
+      <LeistungenContainerSingle 
+        theTitle='Lüftungsinstallationen'
+        theImage='/gruezh/Pictures/Lüftungsinstallationen.jpg'
+        openPopup={openPopup}
+      />
 
       <LeistungenContainerSingle 
         theTitle='24h Notfallservice'
         theImage='/9.webp'
+        openPopup={openPopup}
+      />
+
+
+      <LeistungenContainerSingle 
+        theTitle='Kälteinstallationen'
+        theImage='/gruezh/Pictures/Kälteinstallationen.jpeg'
         openPopup={openPopup}
       />
 

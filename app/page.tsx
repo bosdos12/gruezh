@@ -64,7 +64,7 @@ export default function Home() {
       <KontaktFormular /> */}
 
 
-    <div className="services__cards-container">
+    <div className="services__cards-container" style={{marginBottom: "80px"}}>
         <div className="service-card">
           <img src="/10.webp" alt="Service 1"/>
           <p className="medium__text">Sanitar</p>
@@ -86,6 +86,12 @@ export default function Home() {
           <p className="medium__text">24h Notfallservice</p>
         </div>
       </div>
+
+      <p className="medium__text-klavika" style={{width: "80%", marginLeft: "auto", marginRight: "auto", color: "#0057a4", textAlign: "center"}}>
+        Ihre vertrauenswürdige und fachkundige Anlaufstelle für Sanitär und Heizungssysteme sowie erstklassige Planungsdienstleistungen.
+        <br />
+        Von der Beratung bis zur Ausführung, durchgeführt mit Verlässlichkeit, Kompetenz und Qualitat.
+      </p>
 
 
       <div style={{width: "100%", height: "100px"}}></div>

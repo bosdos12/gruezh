@@ -7,6 +7,8 @@ interface Props {
   extraClasses?: string;
 }
 
+// extraClasses=" contactFooter"
+
 const Footer = ({
   extraClasses
 }: Props) => {

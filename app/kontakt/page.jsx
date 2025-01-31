@@ -46,33 +46,34 @@ const page = () => {
       <div className="contact-section">
         <div className="contact-info">
           <div className="contact-item">
-            <img src="/gruezh/Icons/location-tick.svg" alt="User Icon"/>
-            <p style={{paddingLeft: "8px"}}>Name: John Doe</p>
+            <img src="/gruezh/Icons/location-tick.svg" alt=""/>
+            <p style={{paddingLeft: "8px"}}>LÄTTENSTRASSE 37 8952 SCHLIEREN</p>
           </div>
           <div className="contact-item">
-            <img src="/gruezh/Icons/sms.svg" alt="User Icon"/>
-            <p style={{paddingLeft: "8px"}}>Email: contact@example.com</p>
+            <img src="/gruezh/Icons/sms.svg" alt=""/>
+            <p style={{paddingLeft: "8px"}}><a style={{textDecoration: "none", color: "black"}} href='mailto:info@gruezh.ch'>INFO@GRUEZH.CH</a></p>
           </div>
           <div className="contact-item">
-            <img src="/gruezh/Icons/global.svg" alt="User Icon"/>
-            <p style={{paddingLeft: "8px"}}>Address: 123 Main Street, City</p>
+            <img src="/gruezh/Icons/global.svg" alt=""/>
+            <p style={{paddingLeft: "8px"}}>www.gruezh.ch</p>
           </div>
           <div className="contact-item">
-            <img src="/gruezh/Icons/call-calling.svg" alt="User Icon"/>
-            <p style={{paddingLeft: "8px"}}>Phone: +123456789</p>
+            <img src="/gruezh/Icons/call-calling.svg" alt=""/>
+            <p style={{paddingLeft: "8px"}}><a style={{textDecoration: "none", color: "black"}} href='tel:+41445211414'>+41 44 521 14 14</a></p>
           </div>
         </div>
 
         <div className="map-container">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434508616!2d144.95373631531575!3d-37.81627974202186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f1f8979f%3A0x5045675218ce7e0!2zTWFsYm91cm5lLCBNZWxib3VybmUgVklDIDMwMDAsIEF1c3RyYWxpYQ!5e0!3m2!1sen!2sus!4v1617795732889!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3386.1426053090527!2d8.4411198!3d47.402671999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900d7fc5ddf767%3A0x715e36706a825bc1!2sGruezh%20AG!5e1!3m2!1sen!2s!4v1738297440217!5m2!1sen!2s" allowfullscreen="" loading="lazy"></iframe>
         </div>
       </div>
+
 
 
       <div style={{width: "100%", height: "100px"}}></div>
 
 
-      <Footer extraClasses=" contactFooter"/>
+      <Footer />
 
       <SlideBar />
 
