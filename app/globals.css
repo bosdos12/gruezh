@@ -322,11 +322,12 @@ iframe {
 @media (max-width: 768px) {
 
   #ausderleitungtextdesktop {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-size: 36px;
-    padding-top: 40vh;
+    position: absolute;
+    left: auto;
+    right: 25px;
+    top: auto;
+    bottom: 50px;
+    font-size: 26px;
   }
 
   .scalableimgtitle {
