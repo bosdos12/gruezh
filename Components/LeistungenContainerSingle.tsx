@@ -19,7 +19,7 @@ const LeistungenContainerSingle = ({
       className="leistungen__container-single__image"
       style={{backgroundImage: `url(${theImage})`}}>
     </div>
-    <div className='leistungen__container-single__text-container'>
+    <div className='leistungen__container-single__text-container' style={{width: "240px", marginLeft: "auto", marginRight: "auto"}}>
       <p className="small__text" style={{color: "black"}}>{theTitle}</p>
     </div>
   </div>

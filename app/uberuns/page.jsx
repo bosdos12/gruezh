@@ -42,7 +42,7 @@ const page = () => {
         <div className="service-card">
           <img src="/gruezh/Pictures/egzon.jpeg" alt="Service 1" style={{height: "300px"}}/>
           <p className="medium__text">Egzon Gjaferaj</p>
-          <p className="small__text">Inhaber, Geschaftsfuhrer</p>
+          <p className="small__text">Inhaber, Geschäftsführer</p>
         </div>
         <div className="service-card">
           <img src="/gruezh/Pictures/philipp.jpeg" alt="Service 2" style={{height: "300px"}}/>
