@@ -22,15 +22,15 @@ const page = () => {
 
       <Header />
 
-      <PhotoCoverBanner bgImg='/gruezh/Pictures/uberunsimg.jpg'/>
+      <PhotoCoverBanner bgImg='/newbgimg.webp'/>
 
 
-      <div id='uberunsheadertitle' style={{width: "100%", height: "fit-content", textAlign: "center", marginTop: "120px", marginBottom: "40px"}}>
-        <p className="medium__text bottomtotop text__blacker scalableimgtitle">Über uns</p>
+      <div id='uberunsheadertitle' style={{width: "100%", height: "fit-content", textAlign: "center", marginTop: "100px", marginBottom: "40px"}}>
+        <p className="medium__text text__blacker scalableimgtitle" style={{color: "black"}}>Über uns</p>
       </div>
 
 
-      <p className="medium__text-klavika" style={{width: "80%", marginLeft: "auto", marginRight: "auto", marginBottom: "80px", color: "#0057a4"}}>
+      <p className="medium__text-klavika" style={{width: "80%", marginLeft: "auto", marginRight: "auto", marginBottom: "80px"}}>
         Wir sind Ihr Partner für erstklassige Lösungen in den Bereichen Wasser, Wärme und Komfort.
         Von der ersten Beratung bis zur erfolgreichen Umsetzung stehen wir Ihnen mit unserem Fachwissen stets zur Seite. Unser Unternehmen legt großen Wert auf qualitativ hochwertige und zuverlässige Arbeit. Dank der langjährigen Erfahrung unserer Mitarbeiter im Bereich der Heizungs- und Sanitärsysteme, innovativer Ansätze und herausragender Handwerkskunst, können wir sicherstellen, dass die Anforderungen unserer Kunden optimal erfüllt werden.
         <br /><br />

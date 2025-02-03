@@ -47,11 +47,11 @@ const page = () => {
         <div className="contact-info">
           <div className="contact-item">
             <img src="/gruezh/Icons/location-tick.svg" alt=""/>
-            <p style={{paddingLeft: "8px"}}>LÄTTENSTRASSE 37 8952 SCHLIEREN</p>
+            <p style={{paddingLeft: "8px"}}>Lättenstrasse 37, 8952 Schlieren</p>
           </div>
           <div className="contact-item">
             <img src="/gruezh/Icons/sms.svg" alt=""/>
-            <p style={{paddingLeft: "8px"}}><a style={{textDecoration: "none", color: "black"}} href='mailto:info@gruezh.ch'>INFO@GRUEZH.CH</a></p>
+            <p style={{paddingLeft: "8px"}}><a style={{textDecoration: "none", color: "black"}} href='mailto:info@gruezh.ch'>info@gruezh.ch</a></p>
           </div>
           <div className="contact-item">
             <img src="/gruezh/Icons/global.svg" alt=""/>

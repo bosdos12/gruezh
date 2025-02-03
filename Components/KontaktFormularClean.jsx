@@ -180,8 +180,8 @@ const KontaktFormularClean = () => {
 
         <div className="kontaktformular-input__container">
               <p className="kontaktformular-input__placeholder"
-                onClick={() => pTagClicked("nachrichtptag", "nachrichtinput")} id='nachrichtptag'>NACHRICHT</p>
-              <input type="text" name="" id="nachrichtinput" className="kontaktformular-input"/>
+                onClick={() => pTagClicked("nachrichtptag", "nachrichtinput")} id='nachrichtptag'></p>
+              <textarea type="text" name="" id="nachrichtinput" className="kontaktformular-input" rows={5} style={{border: "1px solid lightgray", resize: "vertical"}} placeholder='NACHRICHT' />
           </div>
           <div style={{width: "100%", height: "20px"}}></div>
         <div style={{width: "100%", height: "fit-content"}}>

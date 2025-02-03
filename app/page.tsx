@@ -1,4 +1,4 @@
-
+"use client"
 import AnimatedLanding from "@/Components/AnimatedLanding";
 import HeaderAction from "@/Components/HeaderAction";
 import TextAndImage from "@/Components/TextAndImage";
@@ -23,7 +23,7 @@ export default function Home() {
       /> */}
 
 
-      <div style={{width: "100%", height: "100px"}}></div>
+      <div style={{width: "100%", height: "40px"}}></div>
       {/* <div style={{width: "100%", height: "fit-content", textAlign: "center"}}>
         <p className="large__text bottomtotop text__blacker" id="sanitarheizungplanung">SANITÄR / HEIZUNG / PLANUNG</p><br />
         <div style={{
@@ -63,35 +63,35 @@ export default function Home() {
 
       <KontaktFormular /> */}
 
+    <p className="medium__text-klavika" style={{width: "80%", marginLeft: "auto", marginRight: "auto", textAlign: "center", marginBottom: "40px"}}>
+      Ihre vertrauenswürdige und fachkundige Anlaufstelle für Sanitär und Heizungssysteme sowie erstklassige Planungsdienstleistungen.
+      <br />
+      Von der Beratung bis zur Ausführung, durchgeführt mit Verlässlichkeit, Kompetenz und Qualitat.
+    </p>
 
-    <div className="services__cards-container" style={{marginBottom: "80px"}}>
-        <div className="service-card">
+
+    <div className="services__cards-container">
+        <div className="service-card" onClick={() => window.location.href = "/leistungen"} style={{cursor: "pointer"}}>
           <img src="/10.webp" alt="Service 1"/>
-          <p className="medium__text">Sanitar</p>
+          <p className="medium__text">Sanitär</p>
         </div>
-        <div className="service-card">
+        <div className="service-card" onClick={() => window.location.href = "/leistungen"} style={{cursor: "pointer"}}>
           <img src="/2.webp" alt="Service 2"/>
           <p className="medium__text">Heizung</p>
         </div>
-        <div className="service-card">
+        <div className="service-card" onClick={() => window.location.href = "/leistungen"} style={{cursor: "pointer"}}>
           <img src="/7.webp" alt="Service 3"/>
           <p className="medium__text">Planung</p>
         </div>
-        <div className="service-card">
+        <div className="service-card" onClick={() => window.location.href = "/leistungen"} style={{cursor: "pointer"}}>
           <img src="/4.webp" alt="Service 4"/>
           <p className="medium__text">Beratung</p>
         </div>
-        <div className="service-card">
+        <div className="service-card" onClick={() => window.location.href = "/kontakt"} style={{cursor: "pointer"}}>
           <img src="/9.webp" alt="Service 5"/>
-          <p className="medium__text">24h Notfallservice</p>
+          <p className="medium__text" style={{color: "red"}}>24h Notfallservice</p>
         </div>
       </div>
-
-      <p className="medium__text-klavika" style={{width: "80%", marginLeft: "auto", marginRight: "auto", color: "#0057a4", textAlign: "center"}}>
-        Ihre vertrauenswürdige und fachkundige Anlaufstelle für Sanitär und Heizungssysteme sowie erstklassige Planungsdienstleistungen.
-        <br />
-        Von der Beratung bis zur Ausführung, durchgeführt mit Verlässlichkeit, Kompetenz und Qualitat.
-      </p>
 
 
       <div style={{width: "100%", height: "100px"}}></div>

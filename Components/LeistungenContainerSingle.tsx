@@ -16,7 +16,6 @@ const LeistungenContainerSingle = ({
   return (
     <div className="leistungen__container-single">
     <div
-      onClick={() => openPopup(theImage)}
       className="leistungen__container-single__image"
       style={{backgroundImage: `url(${theImage})`}}>
     </div>

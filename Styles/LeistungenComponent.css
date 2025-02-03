@@ -37,7 +37,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   transition: 0.5s;
-  cursor: pointer;
+  /* cursor: pointer; */
   border-radius: 10px;
 }
 .leistungen__container-single__text-container {
@@ -48,10 +48,10 @@
   flex-direction: column;
   justify-content: center;
 }
-.leistungen__container-single__image:hover {
+/* .leistungen__container-single__image:hover {
   opacity: 0.6;
   transform: scale(1.02);
-}
+} */
 
 .leistungen__container-single__image > p {  
   margin-top: 50px;
