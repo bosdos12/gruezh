@@ -306,12 +306,27 @@ iframe {
   #uberunsheadertitle {
     margin-top: 100px;
   }
+
+
+  #ausderleitungtextdesktop {
+    position: absolute;
+    left: auto;
+    right: 75px;
+    top: auto;
+    bottom: 150px;
+    font-size: 48px;
+  }
 }
+
 
 @media (max-width: 768px) {
 
   #ausderleitungtextdesktop {
-    visibility: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 36px;
+    padding-top: 40vh;
   }
 
   .scalableimgtitle {

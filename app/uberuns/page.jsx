@@ -30,7 +30,7 @@ const page = () => {
       </div>
 
 
-      <p className="medium__text-klavika" style={{width: "80%", marginLeft: "auto", marginRight: "auto", marginBottom: "80px", fontFamily: "ClearSansRegular"}}>
+      <p className="medium__text-klavika" style={{width: "80%", marginLeft: "auto", marginRight: "auto", marginBottom: "80px", fontFamily: "ClearSansRegular", textAlign: "center"}}>
         Wir sind Ihr Partner für erstklassige Lösungen in den Bereichen Wasser, Wärme und Komfort.
         Von der ersten Beratung bis zur erfolgreichen Umsetzung stehen wir Ihnen mit unserem Fachwissen stets zur Seite. Unser Unternehmen legt großen Wert auf qualitativ hochwertige und zuverlässige Arbeit. Dank der langjährigen Erfahrung unserer Mitarbeiter im Bereich der Heizungs- und Sanitärsysteme, innovativer Ansätze und herausragender Handwerkskunst, können wir sicherstellen, dass die Anforderungen unserer Kunden optimal erfüllt werden.
         <br /><br />

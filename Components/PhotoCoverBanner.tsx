@@ -23,7 +23,7 @@ const PhotoCoverBanner = ({bgImg}: Props) => {
   return (
     <div className={`cover__banner`} style={{backgroundImage: `url(${bgImg ? bgImg : '/8.webp'})`}}>
       <div style={{width: "100%", height: "100%", backgroundColor: "rgba(0,0,0,0.4)", position: "relative"}}>
-        <p className="large__text" id='ausderleitungtextdesktop' style={{color: "white", left: "auto", right: "75px", position: "absolute", top: "auto", bottom: "150px", fontSize: "48px"}}>Gruezh aus der Leitung</p>
+        <p className="large__text" id='ausderleitungtextdesktop' style={{color: "white"}}>Gruezh aus der Leitung</p>
       </div>
     </div>
   )
