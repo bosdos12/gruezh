@@ -42,12 +42,12 @@ const page = () => {
         <div className="service-card">
           <img src="/gruezh/Pictures/egzon.jpeg" alt="Service 1" style={{height: "300px"}}/>
           <p className="medium__text">Egzon Gjaferaj</p>
-          <p className="small__text">Partner</p>
+          <p className="small__text">Inhaber, Geschaftsfuhrer</p>
         </div>
         <div className="service-card">
           <img src="/gruezh/Pictures/philipp.jpeg" alt="Service 2" style={{height: "300px"}}/>
           <p className="medium__text">Philipp Bachler</p>
-          <p className="small__text">Inhaber, Geschaftsfuhrer</p>
+          <p className="small__text">Partner</p>
         </div>
         <div className="service-card">
           <img src="/gruezh/Pictures/ermira.jpeg" alt="Service 3" style={{height: "300px"}}/>
