@@ -26,11 +26,11 @@ const page = () => {
 
 
       <div id='uberunsheadertitle' style={{width: "100%", height: "fit-content", textAlign: "center", marginTop: "100px", marginBottom: "40px"}}>
-        <p className="medium__text text__blacker scalableimgtitle" style={{color: "black"}}>Über uns</p>
+        <p className="medium__text text__blacker scalableimgtitle" style={{color: "#0057a4"}}>Über uns</p>
       </div>
 
 
-      <p className="medium__text-klavika" style={{width: "80%", marginLeft: "auto", marginRight: "auto", marginBottom: "80px"}}>
+      <p className="medium__text-klavika" style={{width: "80%", marginLeft: "auto", marginRight: "auto", marginBottom: "80px", fontFamily: "ClearSansRegular"}}>
         Wir sind Ihr Partner für erstklassige Lösungen in den Bereichen Wasser, Wärme und Komfort.
         Von der ersten Beratung bis zur erfolgreichen Umsetzung stehen wir Ihnen mit unserem Fachwissen stets zur Seite. Unser Unternehmen legt großen Wert auf qualitativ hochwertige und zuverlässige Arbeit. Dank der langjährigen Erfahrung unserer Mitarbeiter im Bereich der Heizungs- und Sanitärsysteme, innovativer Ansätze und herausragender Handwerkskunst, können wir sicherstellen, dass die Anforderungen unserer Kunden optimal erfüllt werden.
         <br /><br />
@@ -46,18 +46,18 @@ const page = () => {
         </div>
         <div className="service-card">
           <img src="/gruezh/Pictures/philipp.jpeg" alt="Service 2" style={{height: "300px"}}/>
-          <p className="medium__text">Philipp Bachler</p>
+          <p className="medium__text">Philipp Bächler</p>
           <p className="small__text">Partner</p>
         </div>
         <div className="service-card">
           <img src="/gruezh/Pictures/ermira.jpeg" alt="Service 3" style={{height: "300px"}}/>
           <p className="medium__text">Ermira Gjaferaj</p>
-          <p className="small__text">Projektleiter</p>
+          <p className="small__text">Head Administration</p>
         </div>
         <div className="service-card">
           <img src="/gruezh/Pictures/murat.jpeg" alt="Service 4" style={{height: "300px"}}/>
           <p className="medium__text">Murat Sopjani</p>
-          <p className="small__text">Head Administration</p>
+          <p className="small__text">Projektleiter</p>
         </div>
 
       </div>

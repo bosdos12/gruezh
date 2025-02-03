@@ -63,7 +63,7 @@ export default function Home() {
 
       <KontaktFormular /> */}
 
-    <p className="medium__text-klavika" style={{width: "80%", marginLeft: "auto", marginRight: "auto", textAlign: "center", marginBottom: "40px"}}>
+    <p className="medium__text-klavika" style={{width: "80%", marginLeft: "auto", marginRight: "auto", textAlign: "center", marginBottom: "40px", fontFamily: "ClearSansRegular"}}>
       Ihre vertrauenswürdige und fachkundige Anlaufstelle für Sanitär und Heizungssysteme sowie erstklassige Planungsdienstleistungen.
       <br />
       Von der Beratung bis zur Ausführung, durchgeführt mit Verlässlichkeit, Kompetenz und Qualitat.

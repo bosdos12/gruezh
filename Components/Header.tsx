@@ -92,7 +92,7 @@ const Header = ({
     if (viewPortWidth < 769) {
       logoImage.style.top = "18px";
     } else {
-      logoImage.style.top = "8px";
+      logoImage.style.top = "20px";
     }
 
     // Check if 1 full screen - height of header width has been scrolled,
