@@ -174,7 +174,7 @@ p.klavika {
 }
 
 .scalableimgtitle {
-  font-size: 48px;
+  font-size: 40px;
 }
 
 
@@ -316,22 +316,30 @@ iframe {
     bottom: 150px;
     font-size: 48px;
   }
+
+  #ausderleitungtextmobile {
+    display: none;
+  }
 }
 
 
 @media (max-width: 768px) {
 
-  #ausderleitungtextdesktop {
+  /* #ausderleitungtextdesktop {
     position: absolute;
     left: auto;
     right: 25px;
     top: auto;
     bottom: 75px;
     font-size: 26px;
+  } */
+  #ausderleitungtextdesktop {
+    display: none;
   }
 
-  .scalableimgtitle {
-    font-size: 40px;
+
+  .leistungentitle {
+    font-size: 32px;
   }
 
   .services__accordions-accordion__content-button__container {

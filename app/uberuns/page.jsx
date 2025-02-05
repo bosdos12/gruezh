@@ -27,6 +27,7 @@ const page = () => {
 
       <div id='uberunsheadertitle' style={{width: "100%", height: "fit-content", textAlign: "center", marginTop: "100px", marginBottom: "40px"}}>
         <p className="medium__text text__blacker scalableimgtitle" style={{color: "#0057a4"}}>Über uns</p>
+        <p className="medium__text text__blacker scalableimgtitle" id='ausderleitungtextmobile'>Gruezh aus der Leitung</p>
       </div>
 
 
@@ -43,23 +44,27 @@ const page = () => {
           <img src="/gruezh/Pictures/egzon.jpeg" alt="Service 1" style={{height: "300px"}}/>
           <p className="medium__text">Egzon Gjaferaj</p>
           <p className="small__text">Inhaber, Geschäftsführer</p>
+          <br />
+          <a href="mailto:e.gjaferaj@gruezh.ch"><i class="fa-solid fa-envelope" style={{fontSize: "24px", color: "#0057a4", cursor: "pointer"}}></i></a>
         </div>
         <div className="service-card">
           <img src="/gruezh/Pictures/philipp.jpeg" alt="Service 2" style={{height: "300px"}}/>
           <p className="medium__text">Philipp Bächler</p>
           <p className="small__text">Partner</p>
-        </div>
-        <div className="service-card">
-          <img src="/gruezh/Pictures/ermira.jpeg" alt="Service 3" style={{height: "300px"}}/>
-          <p className="medium__text">Ermira Gjaferaj</p>
-          <p className="small__text">Head Administration</p>
+          <a href="mailto:p.baechler@gruezh.ch"><i class="fa-solid fa-envelope" style={{fontSize: "24px", color: "#0057a4", cursor: "pointer"}}></i></a>
         </div>
         <div className="service-card">
           <img src="/gruezh/Pictures/murat.jpeg" alt="Service 4" style={{height: "300px"}}/>
           <p className="medium__text">Murat Sopjani</p>
           <p className="small__text">Projektleiter</p>
+          <a href="mailto:m.sopjani@gruezh.ch"><i class="fa-solid fa-envelope" style={{fontSize: "24px", color: "#0057a4", cursor: "pointer"}}></i></a>
         </div>
-
+        <div className="service-card">
+          <img src="/gruezh/Pictures/ermira.jpeg" alt="Service 3" style={{height: "300px"}}/>
+          <p className="medium__text">Ermira Gjaferaj</p>
+          <p className="small__text">Head Administration</p>
+          <a href="mailto:e.gja@gruezh.ch"><i class="fa-solid fa-envelope" style={{fontSize: "24px", color: "#0057a4", cursor: "pointer"}}></i></a>
+        </div>
       </div>
 
 

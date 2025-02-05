@@ -22,7 +22,7 @@ const page = () => {
       
 
       <div style={{width: "100%", height: "fit-content", textAlign: "center"}}>
-        <p className="large__text text__blacker">Leistungen</p><br />
+        <p className="large__text text__blacker leistungentitle">Leistungen</p><br />
         <p className="medium__text" style={{color: 'black'}}>Unser Angebot auf einen Blick</p>
       </div>
       
