@@ -29,7 +29,7 @@ const page = () => {
 
         <div style={{width: "100%", height: "fit-content", marginTop: "20px"}}>
           <div id="input__header-text__container">
-            <p className="small__text bottomtotop" id='kontaktinfotext'>
+            <p className="small__text" id='kontaktinfotext'>
                 Wir würden uns sehr freuen, von Ihnen zu hören, um mögliche Projekte im Bereich
                 Heizung, Sanitär und Planung gemeinsam zu besprechen.
             </p>

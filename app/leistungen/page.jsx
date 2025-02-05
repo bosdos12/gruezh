@@ -22,8 +22,8 @@ const page = () => {
       
 
       <div style={{width: "100%", height: "fit-content", textAlign: "center"}}>
-        <p className="large__text text__blacker bottomtotop">Leistungen</p><br />
-        <p className="medium__text bottomtotop" style={{color: 'black', fontSize: "23px"}}>Unser Angebot auf einen Blick</p>
+        <p className="large__text text__blacker">Leistungen</p><br />
+        <p className="medium__text" style={{color: 'black', fontSize: "23px"}}>Unser Angebot auf einen Blick</p>
       </div>
       
       <LeistungenComponent />

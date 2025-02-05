@@ -326,7 +326,7 @@ iframe {
     left: auto;
     right: 25px;
     top: auto;
-    bottom: 50px;
+    bottom: 75px;
     font-size: 26px;
   }
 
@@ -355,6 +355,15 @@ iframe {
     height: 70vh;
   }
   
+  .medium__text {
+    font-size: 18px;
+  }
+  .medium__text-inter {
+    font-size: 18px;
+  }
+  .medium__text-klavika {
+    font-size: 18px;
+  }
 
 }
 
