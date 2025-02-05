@@ -34,19 +34,19 @@ const SlideBar = () => {
       }}></img>
 
       <Link href="/" style={{textDecoration: "none"}}>
-        <p className="medium__text" style={{color: "white"}}>Startseite</p>
+        <p className="medium__text" style={{color: "white", fontSize: "26px"}}>Startseite</p>
       </Link>
 
       <Link href="/leistungen" style={{textDecoration: "none", marginTop: "16px"}}>
-        <p className="medium__text" style={{color: "white"}}>Leistungen</p>
+        <p className="medium__text" style={{color: "white", fontSize: "26px"}}>Leistungen</p>
       </Link>
 
       <Link href="/uberuns" style={{textDecoration: "none", marginTop: "16px"}}>
-        <p className="medium__text" style={{color: "white"}}>Über uns</p>
+        <p className="medium__text" style={{color: "white", fontSize: "26px"}}>Über uns</p>
       </Link>
 
       <Link href="/kontakt" style={{textDecoration: "none", marginTop: "16px"}}>
-        <p className="medium__text" style={{color: "white"}}>Kontakt</p>
+        <p className="medium__text" style={{color: "white", fontSize: "26px"}}>Kontakt</p>
       </Link>
 
 
