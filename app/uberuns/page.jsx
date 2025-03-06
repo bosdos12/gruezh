@@ -31,9 +31,9 @@ const page = () => {
       </div>
 
 
-      <p className="medium__text-klavika" style={{width: "80%", marginLeft: "auto", marginRight: "auto", marginBottom: "80px", fontFamily: "ClearSansRegular", textAlign: "center"}}>
+      <p className="small__text" style={{width: "80%", marginLeft: "auto", marginRight: "auto", marginBottom: "80px", fontFamily: "ClearSansRegular", textAlign: "center"}}>
         Wir sind Ihr Partner für erstklassige Lösungen in den Bereichen Wasser, Wärme und Komfort.
-        Von der ersten Beratung bis zur erfolgreichen Umsetzung stehen wir Ihnen mit unserem Fachwissen stets zur Seite. Unser Unternehmen legt großen Wert auf qualitativ hochwertige und zuverlässige Arbeit. Dank der langjährigen Erfahrung unserer Mitarbeiter im Bereich der Heizungs- und Sanitärsysteme, innovativer Ansätze und herausragender Handwerkskunst, können wir sicherstellen, dass die Anforderungen unserer Kunden optimal erfüllt werden.
+        Von der ersten Beratung bis zur erfolgreichen Umsetzung stehen wir Ihnen mit unserem Fachwissen stets zur Seite. Unser Unternehmen legt grossen Wert auf qualitativ hochwertige und zuverlässige Arbeit. Dank der langjährigen Erfahrung unserer Mitarbeiter im Bereich der Heizungs- und Sanitärsysteme, innovativer Ansätze und herausragender Handwerkskunst, können wir sicherstellen, dass die Anforderungen unserer Kunden optimal erfüllt werden.
         <br /><br />
         Das Team der Gruezh AG besteht aus erfahrenen Fachleuten und kreativen Köpfen, die sich durch ihre umfassende Expertise in den Bereichen Heizung, Sanitär und Planung auszeichnen. Unsere Mitarbeiter sind das Herzstück unseres Unternehmens und bringen ihre Leidenschaft sowie ihr Engagement für Qualität in jedem unserer Projekte zum Ausdruck.
       </p>
